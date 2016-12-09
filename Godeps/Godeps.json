@@ -1,0 +1,58 @@
+{
+	"ImportPath": "github.com/supereagle/kafka-goclient-perf-test",
+	"GoVersion": "go1.5.1",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/Shopify/sarama",
+			"Comment": "v1.10.1-48-g280cdbd",
+			"Rev": "280cdbd7fed6e93a0d682d2984c8e8e5dc08a2a8"
+		},
+		{
+			"ImportPath": "github.com/davecgh/go-spew/spew",
+			"Rev": "5215b55f46b2b919f50a1df0eaa5886afe4e3b3d"
+		},
+		{
+			"ImportPath": "github.com/eapache/go-resiliency/breaker",
+			"Comment": "v1.0.0-4-gb86b1ec",
+			"Rev": "b86b1ec0dd4209a588dc1285cdd471e73525c0b3"
+		},
+		{
+			"ImportPath": "github.com/eapache/go-xerial-snappy",
+			"Rev": "bb955e01b9346ac19dc29eb16586c90ded99a98c"
+		},
+		{
+			"ImportPath": "github.com/eapache/queue",
+			"Comment": "v1.0.2-7-g44cc805",
+			"Rev": "44cc805cf13205b55f69e14bcb69867d1ae92f98"
+		},
+		{
+			"ImportPath": "github.com/golang/snappy",
+			"Rev": "d9eb7a3d35ec988b8585d4a0068e462c27d28380"
+		},
+		{
+			"ImportPath": "github.com/klauspost/crc32",
+			"Comment": "v1.1",
+			"Rev": "cb6bfca970f6908083f26f39a79009d608efd5cd"
+		},
+		{
+			"ImportPath": "github.com/optiopay/kafka",
+			"Rev": "052466dc46d249c87548f9981db7d1b069f0d317"
+		},
+		{
+			"ImportPath": "github.com/pierrec/lz4",
+			"Rev": "ed384a0ef355ee01915875486e8c245ebd567527"
+		},
+		{
+			"ImportPath": "github.com/pierrec/xxHash/xxHash32",
+			"Comment": "v0.1-4-g5a00444",
+			"Rev": "5a004441f897722c627870a981d02b29924215fa"
+		},
+		{
+			"ImportPath": "github.com/rcrowley/go-metrics",
+			"Rev": "51425a2415d21afadfd55cd93432c0bc69e9598d"
+		}
+	]
+}
